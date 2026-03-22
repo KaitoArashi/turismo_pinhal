@@ -1,0 +1,143 @@
+/*https://www.w3schools.com/php/php_file_upload.asp*/
+
+*{
+    margin: 0;
+    border: 0 ;
+    text-decoration: none;
+    box-sizing:border-box;
+    padding: 0;
+}
+
+#pagina_adicionar{
+    width: 70%;
+}
+
+body{
+    background-image: url(img/espirito-santo-do-pinhal.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header{
+    height: 100px;
+    background-color: dimgray;
+     border-radius: 15px 15px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+nav{
+    height: 170px;
+}
+
+
+main{
+    height: 400px;
+    background: #919191;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+
+     a{
+        background-color: #dcd0a89a;
+        border-radius: 8px;
+        padding: 5px;
+     }
+
+     h5, label{
+        margin: 15px;
+     }
+
+    h5, h2, h3{
+        background-color: #dcd0a89a;
+        padding: 5px;
+    }
+
+    #txtTitulo, #txtEndereco, #txtInformacoes, #txtTelefone{
+        background-color: white;
+        color: black;
+    }
+    #inputImagem{
+        background-color: rgba(0, 0, 0, 0);
+    }
+    input{
+        border-radius: 8px;
+        margin: 7px;
+        padding: 6px;
+    }
+
+    select{
+        border-radius: 8px;
+        padding: 6px;
+    }
+
+    #btnCadastrar,#btnLimpar{
+        margin-top: 30px;
+        color: white;
+        font-weight: bold;
+        background-color: black;
+    }
+    
+
+    #btnCadastrar:hover,#btnLimpar:hover{
+        cursor: pointer;
+        color: black;
+        font-weight: bold;
+        background-color: white;
+    }
+
+    
+}
+
+#resposta{
+    background-color: #919191;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+main #login{    
+    height: 80%;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    background: rgb(212, 212, 212);
+     }
+
+footer{
+    height: 150px;
+    background-color: dimgray;
+    border-radius: 0px 0px 15px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    p{
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+
+    a{
+        border-radius: 8px;
+        padding: 8px;
+        color: white;
+        font-weight: bold;
+        background-color: black;
+    }
+
+    a:hover{
+        background-color: white;
+        color: black;
+    }
+}
+

@@ -1,0 +1,110 @@
+/*https://www.w3schools.com/php/php_file_upload.asp*/
+
+*{
+    margin: 0;
+    border: 0 ;
+    text-decoration: none;
+    box-sizing:border-box;
+    padding: 0;
+}
+
+#pagina_admin{
+    width: 70%;
+}
+
+body{
+    background-image: url(img/espirito-santo-do-pinhal.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header{
+    
+    height: 100px;
+    background-color: dimgray;
+    border-radius: 15px 15px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+
+nav{
+    height: 170px;
+}
+
+
+main{
+    height: 300px;
+    background-color: #919191;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+
+     a{
+        background-color: black;
+        border-radius: 8px;
+        padding: 10px;
+        font-weight: bold;
+        color:white;
+     }
+
+     a:hover{
+        background-color: white;
+        color: black;
+     }
+
+     h5, label{
+        margin-top: 10px;
+     }
+
+    h5, h1, h3, label{
+        background-color: #dcd0a89a;
+        padding: 5px;
+    }
+    
+}
+
+main #login{    
+    display: flex;
+    align-items: end;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #dcd0a89a;
+     }
+
+footer{
+    height: 150px;
+    background-color: dimgray;
+    border-radius: 0px 0px 15px 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+
+    #adm_conectado{
+        font-weight: bold;
+    }
+
+    a{
+    background-color: black;
+    border-radius: 8px;
+    padding: 10px;
+    font-weight: bold;
+    color:white;
+     }
+
+     a:hover{
+        background-color: white;
+        color: black;
+     }
+}
+

@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    border: 0 ;
+    text-decoration: none;
+    box-sizing:border-box;
+    padding: 0;
+}
+
+#pagina_login{
+    width: 70%;
+}
+
+body{
+    background-image: url(img/espirito-santo-do-pinhal.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header{
+    height: 100px;
+    background-color: dimgray;
+    border-radius: 8px 8px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;}
+
+nav{
+    height: 170px;
+}
+
+main{
+    height: 300px;
+    background:#919191;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    #login{
+        padding: 15px;
+        border-radius: 8px;
+        background: rgb(212, 212, 212);
+    }
+
+     a{
+        background-color: #dcd0a89a;
+        border-radius: 8px;
+        padding: 5px;
+     }
+
+     h5, label{
+        margin-top: 10px;
+     }
+
+    h5, h3{
+        background-color: #dcd0a89a;
+        padding: 5px;
+    }
+
+    input{
+        border-radius: 8px;
+        margin-top: 10px;
+        padding: 5px;
+    }
+
+    #txtUsuario, #txtSenha{
+        background-color: white;
+        color: black;
+    }
+
+    #btnEnviar, #btnLimpar{
+        border-radius: 8px;
+        margin-top: 10px;
+        padding: 5px;
+        color: white;
+        font-weight: bold;
+        background-color: black;
+    }
+
+    #btnLimpar:hover,#btnEnviar:hover{
+        color: black;
+        background-color: white;
+        border-radius: 8px;
+        margin-top: 10px;
+        padding: 5px;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+    p{
+        text-align: center;
+    }
+}
+
+
+
+footer{
+    height: 150px;
+    background-color: dimgray;
+    border-radius: 0px 0px 8px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    color: white;
+
+    a{
+        border-radius: 8px;
+        padding: 5px;
+        background-color: black;
+        font-weight: bold;
+        color:white;
+    }
+
+    a:hover{
+        background-color: white;
+        border-radius: 8px;
+        padding: 5px;
+        color: black;
+        font-weight: bold;
+    }
+}
+
